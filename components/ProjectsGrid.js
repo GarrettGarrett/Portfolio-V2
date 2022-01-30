@@ -52,7 +52,7 @@ const projects = [
                 setOpen(true)               
             }}
             key={project.name}
-            className="relative rounded-lg border border-gray-600  px-6 py-5 shadow-sm items-center space-x-3 hover:border-white focus-within:ring-3 focus-within:ring-offset-3 focus-within:ring-white"
+            className="relative rounded-xl border border-gray-600  px-6 py-5 shadow-sm items-center space-x-3 hover:border-white focus-within:ring-3 focus-within:ring-offset-3 focus-within:ring-white"
           >
             <div className="flex-shrink-0">
               <img className="w-full rounded-lg" src={project.imageUrl} alt="" />
