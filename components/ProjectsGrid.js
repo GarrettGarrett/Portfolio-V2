@@ -4,27 +4,34 @@ import Link from 'next/link'
 
 /* This example requires Tailwind CSS v2.0+ */
 const projects = [
-    {
-      name: 'Headless Shopify Storefront',
-      email: 'lesliealexander@example.com',
-      role: 'Developed for City Soles LLC',
-      imageUrl:
-        '/static/images/shopify store.png',
-    },
-    {
-      name: 'Inventory Management',
-      email: 'lesliealexander@example.com',
-      role: 'For helping sneaker resellers manage their inventory and sales',
-      imageUrl:
-      '/static/images/inventory.png',
-    },
-    {
-      name: "Where's Waldo?",
-      email: 'lesliealexander@example.com',
-      role: 'Search for Waldo in 15 different scenes as your score is timed and posted on the Highscore board',
-      imageUrl:
-      '/static/images/waldo.png',
-    },
+  {
+    name: 'Headless Shopify Storefront',
+    role: 'Developed for City Soles LLC',
+    imageUrl:
+      '/static/images/shopify store.png',
+      href: 'https://nextjs-shoify-mauve.vercel.app/',
+      github: 'https://github.com/GarrettGarrett/nextjs-shoify',
+      button_title:"Github"
+  },
+  {
+    name: 'Inventory Management',
+    role: 'For helping sneaker resellers manage their inventory and sales',
+    imageUrl:
+    '/static/images/inventory.png',
+    href: 'https://inventory-app-six-lake.vercel.app/inventory',
+    github: 'https://inventory-app-guide.vercel.app/',
+    button_title:"Walkthrough"
+  },
+  {
+    name: "Where's Waldo?",
+    role: 'Search for Waldo in 15 different scenes as your score is timed and posted on the Highscore board',
+    imageUrl:
+    '/static/images/waldo.png',
+    href:'https://wheres-waldo1.herokuapp.com/',
+    github:'https://github.com/GarrettGarrett/Wheres-Waldo',
+    button_title:"Github"
+    
+  },
     // More projects...
   ]
   
