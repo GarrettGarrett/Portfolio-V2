@@ -23,7 +23,7 @@ let events2020 = [
 let events2017 = [
   {
     title: 'Full Time at Swagerty & Gardner Financial Group',
-    description: 'Here I found an interest with Excel and Excel Macros',
+    description: 'Here I found an interest in Excel and Excel Macros',
   },
 ]
 
