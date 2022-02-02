@@ -4,6 +4,24 @@ import ShowModal from '../components/ShowModal'
 
 const projects = [
   {
+    name: 'Movie Cast Tweets',
+    role: 'A Web Application to Discover the Twitter Activity for the Casts of your Favorite Movies & TV Shows.',
+    imageUrl:
+      '/static/images/movietweets.png',
+      href: 'https://movie-tweets.vercel.app/',
+      github: 'https://github.com/GarrettGarrett/MovieTweets',
+      button_title:"Github"
+  },
+  {
+    name: 'Portfolio Site v2',
+    role: 'Updated Portfolio Site',
+    imageUrl:
+      '/static/images/profilev2.png',
+      href: 'https://www.garrettfelix.com/',
+      github: 'https://github.com/GarrettGarrett/Portfolio-V2',
+      button_title:"Github"
+  },
+  {
     name: 'Headless Shopify Storefront',
     role: 'Developed for City Soles LLC',
     imageUrl:
