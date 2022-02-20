@@ -9,7 +9,7 @@ const projects = [
     role: 'Developed for City Soles LLC',
     imageUrl:
       '/static/images/shopify store.png',
-      href: 'https://nextjs-shoify-mauve.vercel.app/',
+      href: 'https://shopify-storefront-next.vercel.app/',
       github: 'https://github.com/GarrettGarrett/nextjs-shoify',
       button_title:"Github"
   },
