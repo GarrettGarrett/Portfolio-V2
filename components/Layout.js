@@ -9,10 +9,10 @@ function Layout({ children }) {
     <>
      <div className=" max-w-7xl mx-auto px-7 sm:px-20 lg:px-8">
         <div className="max-w-3xl mx-auto ">
-    <Header />
-        { children }
-    <Footer />
-    </div>
+          <Header />
+              { children }
+          <Footer />
+        </div>
     </div>
     
     </>

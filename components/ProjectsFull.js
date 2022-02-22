@@ -4,6 +4,15 @@ import ShowModal from '../components/ShowModal'
 
 const projects = [
   {
+    name: 'Sneaker Scanner',
+    role: 'This tool was created after searching Google for "StockX Scanner" and finding no results. My hope is this tool can make inventory management easier for fellow sneaker resellers',
+    imageUrl:
+      '/static/images/sneakerscan.png',
+      href: 'https://www.sneakerscan.io/stockxscanner',
+      github: 'https://github.com/GarrettGarrett/sneaker-upc-api',
+      button_title:"Github"
+  },
+  {
     name: 'Movie Cast Tweets',
     role: 'A Web Application to Discover the Twitter Activity for the Casts of your Favorite Movies & TV Shows.',
     imageUrl:

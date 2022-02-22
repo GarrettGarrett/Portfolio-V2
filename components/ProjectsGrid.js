@@ -14,23 +14,22 @@ const projects = [
       button_title:"Github"
   },
   {
-    name: 'Inventory Management',
-    role: 'For helping sneaker resellers manage their inventory and sales',
+    name: 'Movie Cast Tweets',
+    role: 'A Web Application to Discover the Twitter Activity for the Casts of your Favorite Movies & TV Shows.',
     imageUrl:
-    '/static/images/inventory.png',
-    href: 'https://inventory-app-six-lake.vercel.app/inventory',
-    github: 'https://inventory-app-guide.vercel.app/',
-    button_title:"Walkthrough"
+      '/static/images/movietweets.png',
+      href: 'https://movie-tweets.vercel.app/',
+      github: 'https://github.com/GarrettGarrett/MovieTweets',
+      button_title:"Github"
   },
   {
-    name: "Where's Waldo?",
-    role: 'Search for Waldo in 15 different scenes as your score is timed and posted on the Highscore board',
+    name: 'Sneaker Scanner',
+    role: 'This tool was created after searching Google for "StockX Scanner" and finding no results. My hope is this tool can make inventory management easier for fellow sneaker resellers',
     imageUrl:
-    '/static/images/waldo.png',
-    href:'https://wheres-waldo1.herokuapp.com/',
-    github:'https://github.com/GarrettGarrett/Wheres-Waldo',
-    button_title:"Github"
-    
+      '/static/images/sneakerscan.png',
+      href: 'https://www.sneakerscan.io/stockxscanner',
+      github: 'https://github.com/GarrettGarrett/sneaker-upc-api',
+      button_title:"Github"
   },
     // More projects...
   ]

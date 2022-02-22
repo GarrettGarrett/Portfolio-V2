@@ -22,7 +22,6 @@ export default function Home() {
         <>
           <MyProfile />
           <ProjectsGrid />
-          <div className='absolute bg-earth bg-cover p-2 rounded-full'></div>
           <RecentActivity />
         </>    
   )
