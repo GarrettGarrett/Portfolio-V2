@@ -31,6 +31,15 @@ const projects = [
       button_title:"Github"
   },
   {
+    name: 'Convert Scout.csv to Shopify.csv',
+    role: `Online conversion tool created to solve a problem posted on Scout's Feature Suggestion Board.`,
+    imageUrl:
+      '/static/images/scout2shopify.png',
+      href: 'https://scout2shopify.vercel.app/',
+      github: 'https://github.com/GarrettGarrett/scout2shopify',
+      button_title:"Github"
+  },
+  {
     name: 'Headless Shopify Storefront',
     role: 'Developed for City Soles LLC',
     imageUrl:
