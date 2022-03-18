@@ -4,6 +4,15 @@ import ShowModal from '../components/ShowModal'
 
 const projects = [
   {
+    name: 'Bug Tracker',
+    role: 'Create projects, submit tickets, and form teams to track bugs in your next software product.',
+    imageUrl:
+      '/static/images/bug_tracker.png',
+      href: 'https://bug-tracker-tau.vercel.app/',
+      github: 'https://github.com/GarrettGarrett/bug-tracker',
+      button_title:"Github"
+  },
+  {
     name: 'Sneaker Scanner',
     role: 'This tool was created after searching Google for "StockX Scanner" and finding no results. My hope is this tool can make inventory management easier for fellow sneaker resellers',
     imageUrl:

@@ -5,21 +5,21 @@ import Link from 'next/link'
 /* This example requires Tailwind CSS v2.0+ */
 const projects = [
   {
+    name: 'Bug Tracker',
+    role: 'Create projects, submit tickets, and form teams to track bugs in your next software product.',
+    imageUrl:
+      '/static/images/bug_tracker.png',
+      href: 'https://bug-tracker-tau.vercel.app/',
+      github: 'https://github.com/GarrettGarrett/bug-tracker',
+      button_title:"Github"
+  },
+  {
     name: 'Headless Shopify Storefront',
     role: 'Developed for City Soles LLC',
     imageUrl:
       '/static/images/shopify store.png',
       href: 'https://shopify-storefront-next.vercel.app/',
       github: 'https://github.com/GarrettGarrett/nextjs-shoify',
-      button_title:"Github"
-  },
-  {
-    name: 'Movie Cast Tweets',
-    role: 'A Web Application to Discover the Twitter Activity for the Casts of your Favorite Movies & TV Shows.',
-    imageUrl:
-      '/static/images/movietweets.png',
-      href: 'https://movie-tweets.vercel.app/',
-      github: 'https://github.com/GarrettGarrett/MovieTweets',
       button_title:"Github"
   },
   {
