@@ -13,6 +13,15 @@ const projects = [
       button_title:"Github"
   },
   {
+    name: 'Dutch Bros Drink Generator',
+    role: 'Random drink generator for Dutch Bros Coffee.',
+    imageUrl:
+      '/static/images/dutchbros.png',
+      href: 'https://dutch-bros-drink-generator.vercel.app/',
+      github: 'https://github.com/GarrettGarrett/dutch-bros-drink-generator',
+      button_title:"Github"
+  },
+  {
     name: 'Sneaker Scanner',
     role: 'This tool was created after searching Google for "StockX Scanner" and finding no results. My hope is this tool can make inventory management easier for fellow sneaker resellers',
     imageUrl:
