@@ -6,7 +6,7 @@ const tabs = [
     { name: 'Home', href: '/', index: 0 },
     { name: 'Timeline', href: '/timeline', index: 1 },
     { name: 'Projects', href: '/projects', index: 2 },
-    { name: 'Activity', href: 'https://www.linkedin.com/in/garrettfelix/recent-activity/shares/', index: 3 },
+    { name: 'Smaller Projects', href: 'https://www.linkedin.com/in/garrettfelix/recent-activity/shares/', index: 3 },
   ]
   
   function classNames(...classes) {

@@ -59,8 +59,8 @@ const projects = [
             <div className="pt-4 flex-1 min-w-0">
               <a href="#" className="focus:outline-none">
                 <span className="absolute inset-0" aria-hidden="true" />
-                <p className="-ml-2 py-3 text-lg font-medium text-white">{project.name}</p>
-                <p className="-ml-2 text-lg text-gray-400 truncate">{project.role}</p>
+                <p className="-ml-2 py-2 text-lg font-medium text-white ">{project.name}</p>
+                <p className="-ml-2 text-base text-gray-400 truncate h-">{project.role}</p>
               </a>
             </div>
           </div>

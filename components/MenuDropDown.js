@@ -90,7 +90,7 @@ export default function MenuDropDown() {
                       'block px-4 py-2 text-sm', 'hover:cursor-pointer'
                     )}
                   >
-                    Activity
+                    Smaller Projects
                   </a>
               
               )}

@@ -57,7 +57,7 @@ export default function RecentActivity() {
   return (
 
     <div className="pt-16 shadow overflow-hidden sm:rounded-md">
-    <h1 className="pb-5 font-bold text-2xl md:text-4xl tracking-tight mb-1 text-white dark:text-white">Recent Activity</h1>
+    <h1 className="pb-5 font-bold text-2xl md:text-4xl tracking-tight mb-1 text-white dark:text-white">Smaller Projects</h1>
       <ul role="list" className="divide-y divide-gray-200">
         {recent_activities.map((application) => (
           <li key={application.applicant.description} className='transition duration-150 hover:-translate-y-0.5 '>
@@ -93,7 +93,7 @@ export default function RecentActivity() {
       <a href="https://www.linkedin.com/in/garrettfelix/recent-activity/shares/" 
       target="_blank"
       rel="noreferrer"
-      className="flex mt-7 text-gray-600 dark:text-gray-400 leading-7 rounded-lg hover:text-gray-800 dark:hover:text-gray-200 transition-all h-6">View all Activity &rarr;</a>
+      className="flex mt-7 text-gray-600 dark:text-gray-400 leading-7 rounded-lg hover:text-gray-800 dark:hover:text-gray-200 transition-all h-6">View all &rarr;</a>
       
     </div>
   )
