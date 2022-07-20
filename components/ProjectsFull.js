@@ -2,6 +2,14 @@ import React from 'react';
 import { useState } from 'react'
 import ShowModal from '../components/ShowModal'
 
+function returnMaxChar(string, maxChar){
+  if (string?.length < maxChar){
+    return string
+  } else {
+    return string?.substring(0, maxChar) + "..."
+  }
+}
+
 const projects = [
   {
     name: 'Discord Bot',
@@ -174,11 +182,11 @@ function ProjectsFull() {
               <div className="flex-shrink-0">
                 <img className="w-full rounded-lg" src={project.imageUrl} alt="" />
               </div>
-              <div className="pt-4 flex-1 min-w-0">
+              <div className="pt-4 flex-1 min-w-0 h-32 overflow-hidden">
                 <a href="#" className="focus:outline-none">
                   <span className="absolute inset-0" aria-hidden="true" />
-                  <p className="-ml-2 py-3 text-lg font-medium text-white">{project.name}</p>
-                  <p className="-ml-2 text-lg text-gray-400 truncate">{project.role}</p>
+                  <p className=" py-2 text-lg font-medium text-white ">{project.name}</p>
+                  <p className="text-sm text-gray-400">{returnMaxChar(project.role, 60)}</p>
                 </a>
               </div>
             </div>
