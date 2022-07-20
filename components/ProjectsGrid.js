@@ -67,11 +67,11 @@ const projects = [
             <div className="flex-shrink-0">
               <img className="w-full rounded-lg" src={project.imageUrl} alt="" />
             </div>
-            <div className="pt-4 flex-1 min-w-0 h-32 overflow-hidden">
+            <div className="pt-4 -mb-4 sm:-mb-0 flex-1 min-w-0 h-32 overflow-hidden">
               <a href="#" className="focus:outline-none">
                 <span className="absolute inset-0" aria-hidden="true" />
                 <p className=" py-2 text-lg font-medium text-white ">{project.name}</p>
-                <p className=" text-sm text-gray-400  h-">{returnMaxChar(project.role, 60)}</p>
+                <p className=" text-sm text-gray-400 ">{returnMaxChar(project.role, 60)}</p>
               </a>
             </div>
           </div>
