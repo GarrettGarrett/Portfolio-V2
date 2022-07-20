@@ -62,19 +62,22 @@ export default function ShowModal({open, setOpen, project}) {
                     View Site
                     </button>
                 </Link>
-
-                <Link 
-                target="_blank"
-                rel="noreferrer"
-                href={project.github} >
-                    <button
-                    type="button"
-                    className="ml-1 inline-flex justify-center w-full rounded-md border border-transparent shadow-sm px-4 py-2 bg-white text-base font-medium text-black  sm:text-lg hover:bg-black hover:text-white border-white border-1"
-                    onClick={() => setOpen(false)}
-                    >
-                    {project.button_title}
-                    </button>
-                </Link>
+                {
+                  project?.onlyOneButton == false &&
+                  <Link 
+                  target="_blank"
+                  rel="noreferrer"
+                  href={project.github} >
+                      <button
+                      type="button"
+                      className="ml-1 inline-flex justify-center w-full rounded-md border border-transparent shadow-sm px-4 py-2 bg-white text-base font-medium text-black  sm:text-lg hover:bg-black hover:text-white border-white border-1"
+                      onClick={() => setOpen(false)}
+                      >
+                      {project.button_title}
+                      </button>
+                  </Link>
+                }
+               
               </div>
             </div>
           </Transition.Child>

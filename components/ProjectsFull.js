@@ -4,8 +4,19 @@ import ShowModal from '../components/ShowModal'
 
 const projects = [
   {
+    name: 'Discord Bot',
+    onlyOneButton: true,
+    role: 'This Discord bot allows you to manage your sneaker reselling inventory by scanning barcodes on sneaker boxes.  Add items or mark them as sold using a barcode reader.  All inventory updates are automatically reflected in your Google Sheet.',
+    imageUrl:
+      '/static/images/discordBot.png',
+      href: 'https://pythonsolutions.gumroad.com/l/sneakerinventory',
+      github: 'https://pythonsolutions.gumroad.com/l/sneakerinventory',
+      button_title:"Gumroad"
+  },
+  {
     name: 'Bug Tracker',
     role: 'Create projects, submit tickets, and form teams to track bugs in your next software product.',
+    onlyOneButton: false,
     imageUrl:
       '/static/images/bug_tracker.png',
       href: 'https://bug-tracker-tau.vercel.app/',
@@ -14,6 +25,7 @@ const projects = [
   },
   {
     name: 'Dutch Bros Drink Generator',
+    onlyOneButton: false,
     role: 'Random drink generator for Dutch Bros Coffee.',
     imageUrl:
       '/static/images/dutchbros.png',
@@ -23,6 +35,7 @@ const projects = [
   },
   {
     name: 'Sneaker Scanner',
+    onlyOneButton: false,
     role: 'This tool was created after searching Google for "StockX Scanner" and finding no results. My hope is this tool can make inventory management easier for fellow sneaker resellers',
     imageUrl:
       '/static/images/sneakerscanlandingpage.png',
@@ -32,6 +45,7 @@ const projects = [
   },
   {
     name: 'Movie Cast Tweets',
+    onlyOneButton: false,
     role: 'A Web Application to Discover the Twitter Activity for the Casts of your Favorite Movies & TV Shows.',
     imageUrl:
       '/static/images/movietweets.png',
@@ -41,6 +55,7 @@ const projects = [
   },
   {
     name: 'Portfolio Site v2',
+    onlyOneButton: false,
     role: 'Updated Portfolio Site',
     imageUrl:
       '/static/images/profilev2.png',
@@ -50,6 +65,7 @@ const projects = [
   },
   {
     name: 'Convert Scout.csv to Shopify.csv',
+    onlyOneButton: false,
     role: `Online conversion tool created to solve a problem posted on Scout's Feature Suggestion Board.`,
     imageUrl:
       '/static/images/scout2shopify.png',
@@ -59,6 +75,7 @@ const projects = [
   },
   {
     name: 'Headless Shopify Storefront',
+    onlyOneButton: false,
     role: 'Developed for City Soles LLC',
     imageUrl:
       '/static/images/shopify store.png',
@@ -68,6 +85,7 @@ const projects = [
   },
   {
     name: 'Inventory Management',
+    onlyOneButton: false,
     role: 'For helping sneaker resellers manage their inventory and sales',
     imageUrl:
     '/static/images/inventory.png',
@@ -77,6 +95,7 @@ const projects = [
   },
   {
     name: "Where's Waldo?",
+    onlyOneButton: false,
     role: 'Search for Waldo in 15 different scenes as your score is timed and posted on the Highscore board',
     imageUrl:
     '/static/images/waldo.png',
@@ -87,6 +106,7 @@ const projects = [
   },
   {
     name: "Team Scheduler",
+    onlyOneButton: false,
     role: 'A Django web application that helps teams with different schedules find times to meet.',
     imageUrl:
     '/static/images/teamscheduler.png',
@@ -96,6 +116,7 @@ const projects = [
   },
   {
     name: "Persian Recipe Food App",
+    onlyOneButton: false,
     role: 'The Persian Recipe Food App is built with React and styled with Material-ui and Styled components. This app displays a collection of recipes highlighting Iranian Cuisine on the Index page. Each dish is showcased in a Show page and has update and delete functionality New recipes may be created and added to the list from a form located on the Index page. Users can also upload their own image to a new recipe via Cloudinary. ',
     imageUrl:
     '/static/images/persianrecipe.png',
@@ -105,6 +126,7 @@ const projects = [
   },
   {
     name: "Chore Wheel",
+    onlyOneButton: false,
     role: 'A responsive web application that helps roommates allocate their house responsibilities',
     imageUrl:
     '/static/images/chorewheel.png',
@@ -114,6 +136,7 @@ const projects = [
   },
   {
     name: "This Day In History",
+    onlyOneButton: false,
     role: 'This is my first developer project with General Assembly! Discover the events, deaths, and births that occurred today in history. Each result includes hyperlinks to their corresponding pages on Wikipedia',
     imageUrl:
     '/static/images/project1.png',

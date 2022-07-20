@@ -46,7 +46,7 @@ export default function MenuDropDown() {
               )}
             </Menu.Item>
             </div>
-            <Menu.Item>
+            {/* <Menu.Item>
               {({ active }) => (
                 <Link href={'/timeline'}>
                   <a
@@ -60,7 +60,7 @@ export default function MenuDropDown() {
                   </a>
                 </Link>
               )}
-            </Menu.Item>
+            </Menu.Item> */}
           
         
             <Menu.Item>

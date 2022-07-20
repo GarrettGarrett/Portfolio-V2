@@ -7,6 +7,7 @@ const projects = [
   {
     name: 'Bug Tracker',
     role: 'Create projects, submit tickets, and form teams to track bugs in your next software product.',
+    onlyOneButton: false,
     imageUrl:
       '/static/images/bug_tracker.png',
       href: 'https://bug-tracker-tau.vercel.app/',
@@ -15,6 +16,7 @@ const projects = [
   },
   {
     name: 'Sneaker Scanner',
+    onlyOneButton: false,
     role: 'This tool was created after searching Google for "StockX Scanner" and finding no results. My hope is this tool can make inventory management easier for fellow sneaker resellers',
     imageUrl:
       '/static/images/sneakerscanlandingpage.png',
@@ -24,6 +26,7 @@ const projects = [
   },
   {
     name: 'Dutch Bros Drink Generator',
+    onlyOneButton: false,
     role: 'Random drink generator for Dutch Bros Coffee.',
     imageUrl:
       '/static/images/dutchbros.png',

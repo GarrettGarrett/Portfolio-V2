@@ -4,7 +4,7 @@ import { useState } from 'react'
 
 const tabs = [
     { name: 'Home', href: '/', index: 0 },
-    { name: 'Timeline', href: '/timeline', index: 1 },
+    // { name: 'Timeline', href: '/timeline', index: 1 },
     { name: 'Projects', href: '/projects', index: 2 },
     { name: 'Smaller Projects', href: 'https://www.linkedin.com/in/garrettfelix/recent-activity/shares/', index: 3 },
   ]
