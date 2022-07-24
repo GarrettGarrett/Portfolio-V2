@@ -12,6 +12,16 @@ function returnMaxChar(string, maxChar){
 
 const projects = [
   {
+    name: 'Link In Bio Tool',
+    onlyOneButton: true,
+    role: 'Create a link in bio landing page to connect your audiences to your sneaker inventory.',
+    imageUrl:
+      '/static/images/sneakerlinks.png',
+      href: 'https://sneakerlinks.io/',
+      // github: 'https://pythonsolutions.gumroad.com/l/sneakerinventory',
+      button_title:"Gumroad"
+  },
+  {
     name: 'Discord Bot',
     onlyOneButton: true,
     role: 'This Discord bot allows you to manage your sneaker reselling inventory by scanning barcodes on sneaker boxes.  Add items or mark them as sold using a barcode reader.  All inventory updates are automatically reflected in your Google Sheet.',
