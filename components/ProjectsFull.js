@@ -19,7 +19,8 @@ const projects = [
       '/static/images/sneakerlinks.png',
       href: 'https://sneakerlinks.io/',
       // github: 'https://pythonsolutions.gumroad.com/l/sneakerinventory',
-      button_title:"Gumroad"
+      button_title:"Gumroad",
+      gif: 'static/images/sneakerlinksgif.gif'
   },
   {
     name: 'Discord Bot',
@@ -29,7 +30,8 @@ const projects = [
       '/static/images/discordBot.png',
       href: 'https://pythonsolutions.gumroad.com/l/sneakerinventory',
       github: 'https://pythonsolutions.gumroad.com/l/sneakerinventory',
-      button_title:"Gumroad"
+      button_title:"Gumroad",
+      gif: 'static/images/gumroadgif.gif'
   },
   {
     name: 'Bug Tracker',
@@ -39,7 +41,8 @@ const projects = [
       '/static/images/bug_tracker.png',
       href: 'https://bug-tracker-tau.vercel.app/',
       github: 'https://github.com/GarrettGarrett/bug-tracker',
-      button_title:"Github"
+      button_title:"Github",
+      gif: 'static/images/buggif.gif'
   },
   {
     name: 'Dutch Bros Drink Generator',
@@ -49,7 +52,8 @@ const projects = [
       '/static/images/dutchbros.png',
       href: 'https://dutch-bros-drink-generator.vercel.app/',
       github: 'https://github.com/GarrettGarrett/dutch-bros-drink-generator',
-      button_title:"Github"
+      button_title:"Github",
+      gif: 'static/images/coffegif.gif'
   },
   {
     name: 'Sneaker Scanner',
@@ -59,7 +63,8 @@ const projects = [
       '/static/images/sneakerscanlandingpage.png',
       href: 'https://www.sneakerscan.io/',
       github: 'https://github.com/GarrettGarrett/sneaker-upc-api',
-      button_title:"Github"
+      button_title:"Github",
+      gif: 'static/images/sneakerscangif.gif'
   },
   {
     name: 'Movie Cast Tweets',
@@ -69,17 +74,19 @@ const projects = [
       '/static/images/movietweets.png',
       href: 'https://movie-tweets.vercel.app/',
       github: 'https://github.com/GarrettGarrett/MovieTweets',
-      button_title:"Github"
+      button_title:"Github",
+      gif: 'static/images/moviegif.gif'
   },
   {
     name: 'Portfolio Site v2',
     onlyOneButton: false,
     role: 'Updated Portfolio Site',
     imageUrl:
-      '/static/images/profilev2.png',
+      '/static/images/portfoliov2.png',
       href: 'https://www.garrettfelix.com/',
       github: 'https://github.com/GarrettGarrett/Portfolio-V2',
-      button_title:"Github"
+      button_title:"Github",
+      gif: 'static/images/portfoliogif.gif'
   },
   {
     name: 'Convert Scout.csv to Shopify.csv',
@@ -89,7 +96,8 @@ const projects = [
       '/static/images/scout2shopify.png',
       href: 'https://scout2shopify.vercel.app/',
       github: 'https://github.com/GarrettGarrett/scout2shopify',
-      button_title:"Github"
+      button_title:"Github",
+      gif: 'static/images/convertergif.gif'
   },
   {
     name: 'Headless Shopify Storefront',
@@ -99,7 +107,8 @@ const projects = [
       '/static/images/shopify store.png',
       href: 'https://shopify-storefront-next.vercel.app/',
       github: 'https://github.com/GarrettGarrett/nextjs-shoify',
-      button_title:"Github"
+      button_title:"Github",
+      gif: 'static/images/shopifystoregif.gif'
   },
   {
     name: 'Inventory Management',
@@ -109,7 +118,8 @@ const projects = [
     '/static/images/inventory.png',
     href: 'https://inventory-app-six-lake.vercel.app/inventory',
     github: 'https://inventory-app-guide.vercel.app/',
-    button_title:"Walkthrough"
+    button_title:"Walkthrough",
+    gif: 'static/images/inventorygif.gif'
   },
   {
     name: "Where's Waldo?",
@@ -119,7 +129,8 @@ const projects = [
     '/static/images/waldo.png',
     href:'https://wheres-waldo1.herokuapp.com/',
     github:'https://github.com/GarrettGarrett/Wheres-Waldo',
-    button_title:"Github"
+    button_title:"Github",
+    gif: 'static/images/waldogif.gif'
     
   },
   {
@@ -130,7 +141,8 @@ const projects = [
     '/static/images/teamscheduler.png',
     href:'https://django-team-scheduler.herokuapp.com/',
     github:'https://github.com/GarrettGarrett/Team-Scheduler',
-    button_title:"Github"
+    button_title:"Github",
+    gif: 'static/images/schedulergif.gif'
   },
   {
     name: "Persian Recipe Food App",
@@ -140,7 +152,8 @@ const projects = [
     '/static/images/persianrecipe.png',
     href:'https://cocky-aryabhata-964b73.netlify.app/',
     github:'https://github.com/GarrettGarrett/persian-food-recipe-frontend',
-    button_title:"Github"
+    button_title:"Github",
+    gif: 'static/images/recipesgif.gif'
   },
   {
     name: "Chore Wheel",
@@ -150,7 +163,8 @@ const projects = [
     '/static/images/chorewheel.png',
     href:'https://project-3-heroku-app.herokuapp.com/',
     github:'https://github.com/GarrettGarrett/Project-3',
-    button_title:"Github"
+    button_title:"Github",
+    gif: 'static/images/choregif.gif'
   },
   {
     name: "This Day In History",
@@ -160,7 +174,8 @@ const projects = [
     '/static/images/project1.png',
     href: 'https://garrettgarrett.github.io/Project1-On-This-Day/',
     github: 'https://github.com/GarrettGarrett/Project1-On-This-Day',
-    button_title:"Github"
+    button_title:"Github",
+    gif: 'static/images/historygif.gif'
   },
   // More projects...
 ]
@@ -170,6 +185,7 @@ const projects = [
 function ProjectsFull() {
   const [open, setOpen] = useState(false)
   const [project, setProject] = useState(false)
+  const [hovering, setHovering] = useState(-1)
 
   return (
 
@@ -180,8 +196,12 @@ function ProjectsFull() {
 
     <div className="grid grid-cols-1 gap-4 sm:grid-cols-2 md:grid-cols-3">
           
-          {projects.map((project) => (
+          {projects.map((project, index) => (
             <div
+              onMouseEnter={() => {
+                setHovering(index)
+              }}
+              onMouseLeave={() => setHovering(-1)}
               onClick={(e) => {
                 setProject(project)
                 setOpen(true)               
@@ -190,7 +210,12 @@ function ProjectsFull() {
               className="relative rounded-lg border border-gray-600  px-6 py-5 shadow-sm items-center space-x-3 hover:border-white focus-within:ring-3 focus-within:ring-offset-3 focus-within:ring-white"
             >
               <div className="flex-shrink-0">
+              {
+                hovering == index ? 
+                <img className="w-full rounded-lg " src={project.gif} alt="" />
+                :
                 <img className="w-full rounded-lg" src={project.imageUrl} alt="" />
+              }
               </div>
               <div className="pt-4 flex-1 -mb-4 sm:-mb-0 min-w-0 h-32 overflow-hidden">
                 <a href="#" className="focus:outline-none">
