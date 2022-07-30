@@ -38,7 +38,7 @@ export default function ShowModal({open, setOpen, project}) {
             <div className="inline-block align-bottom bg-black rounded-lg px-4 pt-5 pb-4 text-left overflow-hidden shadow-xl transform transition-all sm:my-8 sm:align-middle sm:max-w-sm sm:w-full sm:p-6">
               <div>
                 <div className="mx-auto flex items-center justify-center w-full rounded-lg">
-                  <img src={project.imageUrl} className='rounded-lg'/>
+                  <img src={project.gif} className='rounded-lg'/>
                 </div>
                 <div className="mt-3 text-center sm:mt-5">
                   <Dialog.Title as="h3" className="text-xl leading-6 font-medium text-white">
