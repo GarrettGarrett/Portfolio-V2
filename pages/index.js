@@ -7,6 +7,8 @@ import RecentActivity from '../components/RecentActivity'
 import Footer from '../components/Footer'
 import { useTheme } from 'next-themes';
 import Link from 'next/link'
+import Spline from '@splinetool/react-spline';
+
 
 
 export default function Home() {

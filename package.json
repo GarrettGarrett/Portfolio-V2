@@ -8,6 +8,7 @@
   "dependencies": {
     "@headlessui/react": "^1.4.3",
     "@heroicons/react": "^1.0.5",
+    "@splinetool/react-spline": "^2.2.1",
     "@tailwindcss/forms": "^0.4.0",
     "next": "latest",
     "next-themes": "^0.0.15",
