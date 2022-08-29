@@ -4,6 +4,18 @@ import { CheckCircleIcon, ChevronRightIcon, MailIcon } from '@heroicons/react/so
 const recent_activities = [
   {
     applicant: {
+      name: 'Virtual Shelf Inventory System',
+      description: 'Virtual Shelf is an inventory system that allows each product’s location to be viewed online in a virtual shelf. I explain the why and how behind this project in my Notion article here:',
+      imageUrl:
+        '/static/images/linkedin.png',
+    },
+    date: '2020-01-07',
+    dateFull: 'January 7, 2020',
+    stage: 'Completed phone screening',
+    href: 'https://virtualshelf.notion.site/Virtual-Shelf-System-c49beb89b57440fc85798a8c95001cf6',
+  },
+  {
+    applicant: {
       name: 'Using Python To Find Giveaways on Instagram',
       description: 'Yesterday I made a program to search for giveaways on Instagram! Built with Python, JavaScript, and Next.js API routes, this script will iterate through the following list for an Instagram account and check for posts within the past week containing the word “giveaway.” In the screenshot below I enter CitySolesLLC and all 507 accounts CitySolesLLC is following are scanned resulting in 10 giveaways found! #javascript #python',
       imageUrl:
