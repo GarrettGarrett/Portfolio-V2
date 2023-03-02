@@ -1,14 +1,17 @@
-import React from 'react';
-import Header from '../components/Header'
-import Footer from '../components/Footer'
+import React from 'react'
+
 import ProjectsFull from '../components/ProjectsFull'
+import Head from 'next/head'
 
 function projects() {
-    return (
-        <>    
-            <ProjectsFull />
-        </>
-    )
+  return (
+    <>
+      <Head>
+        <title>Projects</title>
+      </Head>
+      <ProjectsFull />
+    </>
+  )
 }
 
-export default projects;
+export default projects

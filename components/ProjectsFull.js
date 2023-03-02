@@ -61,7 +61,7 @@ const projects = [
     role: 'This tool was created after searching Google for "StockX Scanner" and finding no results. My hope is this tool can make inventory management easier for fellow sneaker resellers',
     imageUrl:
       '/static/images/sneakerscanlandingpage.png',
-      href: 'https://www.sneakerscan.io/',
+      href: 'https://sneaker-upc-api.vercel.app/',
       github: 'https://github.com/GarrettGarrett/sneaker-upc-api',
       button_title:"Github",
       gif: 'static/images/sneakerscangif.gif'
@@ -99,84 +99,84 @@ const projects = [
       button_title:"Github",
       gif: 'static/images/convertergif.gif'
   },
-  {
-    name: 'Headless Shopify Storefront',
-    onlyOneButton: false,
-    role: 'Developed for City Soles LLC',
-    imageUrl:
-      '/static/images/shopify store.png',
-      href: 'https://shopify-storefront-next.vercel.app/',
-      github: 'https://github.com/GarrettGarrett/nextjs-shoify',
-      button_title:"Github",
-      gif: 'static/images/shopifystoregif.gif'
-  },
-  {
-    name: 'Inventory Management',
-    onlyOneButton: false,
-    role: 'For helping sneaker resellers manage their inventory and sales',
-    imageUrl:
-    '/static/images/inventory.png',
-    href: 'https://inventory-app-six-lake.vercel.app/inventory',
-    github: 'https://inventory-app-guide.vercel.app/',
-    button_title:"Walkthrough",
-    gif: 'static/images/inventorygif.gif'
-  },
-  {
-    name: "Where's Waldo?",
-    onlyOneButton: false,
-    role: 'Search for Waldo in 15 different scenes as your score is timed and posted on the Highscore board',
-    imageUrl:
-    '/static/images/waldo.png',
-    href:'https://wheres-waldo1.herokuapp.com/',
-    github:'https://github.com/GarrettGarrett/Wheres-Waldo',
-    button_title:"Github",
-    gif: 'static/images/waldogif.gif'
+  // {
+  //   name: 'Headless Shopify Storefront',
+  //   onlyOneButton: false,
+  //   role: 'Developed for City Soles LLC',
+  //   imageUrl:
+  //     '/static/images/shopify store.png',
+  //     href: 'https://shopify-storefront-next.vercel.app/',
+  //     github: 'https://github.com/GarrettGarrett/nextjs-shoify',
+  //     button_title:"Github",
+  //     gif: 'static/images/shopifystoregif.gif'
+  // },
+  // {
+  //   name: 'Inventory Management',
+  //   onlyOneButton: false,
+  //   role: 'For helping sneaker resellers manage their inventory and sales',
+  //   imageUrl:
+  //   '/static/images/inventory.png',
+  //   href: 'https://inventory-app-six-lake.vercel.app/inventory',
+  //   github: 'https://inventory-app-guide.vercel.app/',
+  //   button_title:"Walkthrough",
+  //   gif: 'static/images/inventorygif.gif'
+  // },
+  // {
+  //   name: "Where's Waldo?",
+  //   onlyOneButton: false,
+  //   role: 'Search for Waldo in 15 different scenes as your score is timed and posted on the Highscore board',
+  //   imageUrl:
+  //   '/static/images/waldo.png',
+  //   href:'https://wheres-waldo1.herokuapp.com/',
+  //   github:'https://github.com/GarrettGarrett/Wheres-Waldo',
+  //   button_title:"Github",
+  //   gif: 'static/images/waldogif.gif'
     
-  },
-  {
-    name: "Team Scheduler",
-    onlyOneButton: false,
-    role: 'A Django web application that helps teams with different schedules find times to meet.',
-    imageUrl:
-    '/static/images/teamscheduler.png',
-    href:'https://django-team-scheduler.herokuapp.com/',
-    github:'https://github.com/GarrettGarrett/Team-Scheduler',
-    button_title:"Github",
-    gif: 'static/images/schedulergif.gif'
-  },
-  {
-    name: "Persian Recipe Food App",
-    onlyOneButton: false,
-    role: 'The Persian Recipe Food App is built with React and styled with Material-ui and Styled components. This app displays a collection of recipes highlighting Iranian Cuisine on the Index page. Each dish is showcased in a Show page and has update and delete functionality New recipes may be created and added to the list from a form located on the Index page. Users can also upload their own image to a new recipe via Cloudinary. ',
-    imageUrl:
-    '/static/images/persianrecipe.png',
-    href:'https://cocky-aryabhata-964b73.netlify.app/',
-    github:'https://github.com/GarrettGarrett/persian-food-recipe-frontend',
-    button_title:"Github",
-    gif: 'static/images/recipesgif.gif'
-  },
-  {
-    name: "Chore Wheel",
-    onlyOneButton: false,
-    role: 'A responsive web application that helps roommates allocate their house responsibilities',
-    imageUrl:
-    '/static/images/chorewheel.png',
-    href:'https://project-3-heroku-app.herokuapp.com/',
-    github:'https://github.com/GarrettGarrett/Project-3',
-    button_title:"Github",
-    gif: 'static/images/choregif.gif'
-  },
-  {
-    name: "This Day In History",
-    onlyOneButton: false,
-    role: 'This is my first developer project with General Assembly! Discover the events, deaths, and births that occurred today in history. Each result includes hyperlinks to their corresponding pages on Wikipedia',
-    imageUrl:
-    '/static/images/project1.png',
-    href: 'https://garrettgarrett.github.io/Project1-On-This-Day/',
-    github: 'https://github.com/GarrettGarrett/Project1-On-This-Day',
-    button_title:"Github",
-    gif: 'static/images/historygif.gif'
-  },
+  // },
+  // {
+  //   name: "Team Scheduler",
+  //   onlyOneButton: false,
+  //   role: 'A Django web application that helps teams with different schedules find times to meet.',
+  //   imageUrl:
+  //   '/static/images/teamscheduler.png',
+  //   href:'https://django-team-scheduler.herokuapp.com/',
+  //   github:'https://github.com/GarrettGarrett/Team-Scheduler',
+  //   button_title:"Github",
+  //   gif: 'static/images/schedulergif.gif'
+  // },
+  // {
+  //   name: "Persian Recipe Food App",
+  //   onlyOneButton: false,
+  //   role: 'The Persian Recipe Food App is built with React and styled with Material-ui and Styled components. This app displays a collection of recipes highlighting Iranian Cuisine on the Index page. Each dish is showcased in a Show page and has update and delete functionality New recipes may be created and added to the list from a form located on the Index page. Users can also upload their own image to a new recipe via Cloudinary. ',
+  //   imageUrl:
+  //   '/static/images/persianrecipe.png',
+  //   href:'https://cocky-aryabhata-964b73.netlify.app/',
+  //   github:'https://github.com/GarrettGarrett/persian-food-recipe-frontend',
+  //   button_title:"Github",
+  //   gif: 'static/images/recipesgif.gif'
+  // },
+  // {
+  //   name: "Chore Wheel",
+  //   onlyOneButton: false,
+  //   role: 'A responsive web application that helps roommates allocate their house responsibilities',
+  //   imageUrl:
+  //   '/static/images/chorewheel.png',
+  //   href:'https://project-3-heroku-app.herokuapp.com/',
+  //   github:'https://github.com/GarrettGarrett/Project-3',
+  //   button_title:"Github",
+  //   gif: 'static/images/choregif.gif'
+  // },
+  // {
+  //   name: "This Day In History",
+  //   onlyOneButton: false,
+  //   role: 'This is my first developer project with General Assembly! Discover the events, deaths, and births that occurred today in history. Each result includes hyperlinks to their corresponding pages on Wikipedia',
+  //   imageUrl:
+  //   '/static/images/project1.png',
+  //   href: 'https://garrettgarrett.github.io/Project1-On-This-Day/',
+  //   github: 'https://github.com/GarrettGarrett/Project1-On-This-Day',
+  //   button_title:"Github",
+  //   gif: 'static/images/historygif.gif'
+  // },
   // More projects...
 ]
 
