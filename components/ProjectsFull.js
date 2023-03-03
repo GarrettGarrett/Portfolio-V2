@@ -66,17 +66,17 @@ const projects = [
       button_title:"Github",
       gif: 'static/images/sneakerscangif.gif'
   },
-  {
-    name: 'Movie Cast Tweets',
-    onlyOneButton: false,
-    role: 'A Web Application to Discover the Twitter Activity for the Casts of your Favorite Movies & TV Shows.',
-    imageUrl:
-      '/static/images/movietweets.png',
-      href: 'https://movie-tweets.vercel.app/',
-      github: 'https://github.com/GarrettGarrett/MovieTweets',
-      button_title:"Github",
-      gif: 'static/images/moviegif.gif'
-  },
+  // {
+  //   name: 'Movie Cast Tweets',
+  //   onlyOneButton: false,
+  //   role: 'A Web Application to Discover the Twitter Activity for the Casts of your Favorite Movies & TV Shows.',
+  //   imageUrl:
+  //     '/static/images/movietweets.png',
+  //     href: 'https://movie-tweets.vercel.app/',
+  //     github: 'https://github.com/GarrettGarrett/MovieTweets',
+  //     button_title:"Github",
+  //     gif: 'static/images/moviegif.gif'
+  // },
   {
     name: 'Portfolio Site v2',
     onlyOneButton: false,
