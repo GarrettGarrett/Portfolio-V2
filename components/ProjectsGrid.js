@@ -29,7 +29,7 @@ const projects = [
     role: 'This tool was created after searching Google for "StockX Scanner" and finding no results. My hope is this tool can make inventory management easier for fellow sneaker resellers',
     imageUrl:
       '/static/images/sneakerscanlandingpage.png',
-      href: 'https://www.sneakerscan.io',
+      href: 'https://sneaker-upc-api.vercel.app',
       github: 'https://github.com/GarrettGarrett/sneaker-upc-api',
       button_title:"Github",
     gif: 'static/images/sneakerscangif.gif'
