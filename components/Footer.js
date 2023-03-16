@@ -31,6 +31,10 @@ function Footer() {
                     <a className="text-gray-500 hover:text-gray-600 transition" target="_blank"
                     rel="noreferrer" href="https://www.linkedin.com/in/garrettfelix/">LinkedIn</a>
                 </div>
+                <div className='flex flex-col space-y-4'>
+                    <a className="text-gray-500 hover:text-gray-600 transition" target="_blank"
+                    rel="noreferrer" href="https://twitter.com/garrettfelix">Twitter</a>
+                </div>
                 
         </div>
 
