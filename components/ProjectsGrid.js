@@ -13,6 +13,16 @@ function returnMaxChar(string, maxChar) {
 /* This example requires Tailwind CSS v2.0+ */
 const projects = [
   {
+    name: 'SneakerSync Email Hub',
+    onlyOneButton: true,
+    role: 'Automated inventory and accounting software for your reselling business.',
+    imageUrl: 'https://www.sneakersync.app/share.png',
+    href: 'https://whop.com/sneakersync-1/?accessPassId=prod_KZL47WzGv4HIQ',
+    // github: 'https://pythonsolutions.gumroad.com/l/sneakerinventory',
+    button_title: 'Whop',
+    gif: 'https://www.sneakersync.app/email2sheets.gif',
+  },
+  {
     name: 'Bug Tracker',
     role: 'Create projects, submit tickets, and form teams to track bugs in your next software product.',
     onlyOneButton: false,
@@ -56,8 +66,7 @@ export default function ProjectsGrid() {
       <h1 className="mb-1 pb-5 text-2xl font-bold tracking-tight text-white dark:text-white md:text-4xl">
         Featured Projects
       </h1>
-      <div className="grid grid-cols-1 gap-4 sm:grid-cols-2 md:grid-cols-3">
-
+      <div className="grid grid-cols-1 gap-4 sm:grid-cols-2 md:grid-cols-4">
         {projects.map((project, index) => (
           <div
             onMouseEnter={() => {
@@ -69,12 +78,12 @@ export default function ProjectsGrid() {
               setOpen(true)
             }}
             key={project.name}
-            className="focus-within:ring-3 focus-within:ring-offset-3 relative items-center  space-x-3 rounded-xl border border-gray-600 
+            className="focus-within:ring-3 focus-within:ring-offset-3 relative items-center  space-x-0 rounded-xl border border-gray-600 
             px-4 py-4
-            sm:px-6 sm:py-5 
-            shadow-sm focus-within:ring-white hover:border-white"
+            shadow-sm focus-within:ring-white 
+            hover:border-white sm:px-6 sm:py-5 "
           >
-            <div className="flex-shrink-0">
+            <div className="flex-shrink-0 ">
               {hovering == index ? (
                 <img className="w-full rounded-lg " src={project.gif} alt="" />
               ) : (
@@ -85,17 +94,19 @@ export default function ProjectsGrid() {
                 />
               )}
             </div>
-            <div className="-mb-4 h-32 min-w-0 flex-1 overflow-hidden 
-            pt-4 sm:-mb-0">
-              <a  className="focus:outline-none">
+            <div
+              className="-mb-4 min-w-0 flex-1 overflow-hidden 
+            pt-4 sm:-mb-0 "
+            >
+              <div className="focus:outline-none ">
                 <span className="absolute inset-0" aria-hidden="true" />
-                <p className=" py-2 text-lg font-medium text-white ">
+                <p className="my-2 py-0 text-sm font-medium text-white ">
                   {project.name}
                 </p>
-                <p className=" text-sm text-gray-400 ">
+                <p className="   py-4 text-sm text-gray-400 sm:py-0">
                   {returnMaxChar(project.role, 60)}
                 </p>
-              </a>
+              </div>
             </div>
           </div>
         ))}

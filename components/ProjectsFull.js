@@ -12,6 +12,17 @@ function returnMaxChar(string, maxChar){
 
 const projects = [
   {
+    name: 'SneakerSync Email Hub',
+    onlyOneButton: true,
+    role: 'Automated inventory and accounting software for your reselling business.',
+    imageUrl:
+      'https://www.sneakersync.app/share.png',
+      href: 'https://whop.com/sneakersync-1/?accessPassId=prod_KZL47WzGv4HIQ',
+      // github: 'https://pythonsolutions.gumroad.com/l/sneakerinventory',
+      button_title:"Whop",
+      gif: 'https://www.sneakersync.app/email2sheets.gif'
+  },
+  {
     name: 'Link In Bio Tool',
     onlyOneButton: true,
     role: 'Create a link in bio landing page to connect your audiences to your sneaker inventory.',
