@@ -17,7 +17,7 @@ const projects = [
     role: 'Automated inventory and accounting software for your reselling business.',
     imageUrl:
       'https://www.sneakersync.app/share.png',
-      href: 'https://whop.com/sneaker-sync/?accessPassId=prod_KZL47WzGv4HIQ',
+      href: 'https://www.sneakersync.app/landing',
       // github: 'https://pythonsolutions.gumroad.com/l/sneakerinventory',
       button_title:"Whop",
       gif: 'https://www.sneakersync.app/email2sheets.gif'
