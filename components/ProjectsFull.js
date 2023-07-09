@@ -1,7 +1,7 @@
 import React from 'react'
 import { useState } from 'react'
 import ShowModal from '../components/ShowModal'
-
+import Script from 'next/script'
 function returnMaxChar(string, maxChar) {
   if (string?.length < maxChar) {
     return string
