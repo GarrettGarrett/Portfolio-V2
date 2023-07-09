@@ -1,12 +1,12 @@
-import React from 'react';
+import React from 'react'
 import { useState } from 'react'
 import ShowModal from '../components/ShowModal'
 
-function returnMaxChar(string, maxChar){
-  if (string?.length < maxChar){
+function returnMaxChar(string, maxChar) {
+  if (string?.length < maxChar) {
     return string
   } else {
-    return string?.substring(0, maxChar) + "..."
+    return string?.substring(0, maxChar) + '...'
   }
 }
 
@@ -15,67 +15,60 @@ const projects = [
     name: 'SneakerSync Email Hub',
     onlyOneButton: true,
     role: 'Automated inventory and accounting software for your reselling business.',
-    imageUrl:
-      'https://www.sneakersync.app/share.png',
-      href: 'https://www.sneakersync.app/landing',
-      // github: 'https://pythonsolutions.gumroad.com/l/sneakerinventory',
-      button_title:"Whop",
-      gif: 'https://www.sneakersync.app/email2sheets.gif'
+    imageUrl: 'https://www.sneakersync.app/share.png',
+    href: 'https://www.sneakersync.app/landing',
+    button_title: 'Whop',
+    gif: 'https://www.sneakersync.app/email2sheets.gif',
   },
   {
     name: 'Link In Bio Tool',
     onlyOneButton: true,
     role: 'Create a link in bio landing page to connect your audiences to your sneaker inventory.',
-    imageUrl:
-      '/static/images/sneakerlinks.png',
-      href: 'https://sneakerlinks.io/',
-      // github: 'https://pythonsolutions.gumroad.com/l/sneakerinventory',
-      button_title:"Gumroad",
-      gif: 'static/images/sneakerlinksgif.gif'
+    imageUrl: '/static/images/sneakerlinks.png',
+    href: 'https://sneakerlinks.io/',
+    // github: 'https://pythonsolutions.gumroad.com/l/sneakerinventory',
+    button_title: 'Gumroad',
+    gif: 'static/images/sneakerlinksgif.gif',
   },
   {
     name: 'Discord Bot',
     onlyOneButton: true,
     role: 'This Discord bot allows you to manage your sneaker reselling inventory by scanning barcodes on sneaker boxes.  Add items or mark them as sold using a barcode reader.  All inventory updates are automatically reflected in your Google Sheet.',
-    imageUrl:
-      '/static/images/discordBot.png',
-      href: 'https://pythonsolutions.gumroad.com/l/sneakerinventory',
-      github: 'https://pythonsolutions.gumroad.com/l/sneakerinventory',
-      button_title:"Gumroad",
-      gif: 'static/images/gumroadgif.gif'
+    imageUrl: '/static/images/discordBot.png',
+    href: 'https://pythonsolutions.gumroad.com/l/sneakerinventory',
+    github: 'https://pythonsolutions.gumroad.com/l/sneakerinventory',
+    button_title: 'Gumroad',
+    gif: 'static/images/gumroadgif.gif',
   },
   {
     name: 'Bug Tracker',
     role: 'Create projects, submit tickets, and form teams to track bugs in your next software product.',
     onlyOneButton: false,
-    imageUrl:
-      '/static/images/bug_tracker.png',
-      href: 'https://bug-tracker-tau.vercel.app/',
-      github: 'https://github.com/GarrettGarrett/bug-tracker',
-      button_title:"Github",
-      gif: 'static/images/buggif.gif'
+    imageUrl: '/static/images/bug_tracker.png',
+    href: 'https://bug-tracker-tau.vercel.app/',
+    github: 'https://github.com/GarrettGarrett/bug-tracker',
+    button_title: 'Github',
+    gif: 'static/images/buggif.gif',
   },
   {
     name: 'Dutch Bros Drink Generator',
     onlyOneButton: false,
     role: 'Random drink generator for Dutch Bros Coffee.',
-    imageUrl:
-      '/static/images/dutchbros.png',
-      href: 'https://dutch-bros-drink-generator.vercel.app/',
-      github: 'https://github.com/GarrettGarrett/dutch-bros-drink-generator',
-      button_title:"Github",
-      gif: 'static/images/coffegif.gif'
+    imageUrl: '/static/images/dutchbros.png',
+    href: 'https://dutch-bros-drink-generator.vercel.app/',
+    github: 'https://github.com/GarrettGarrett/dutch-bros-drink-generator',
+    button_title: 'Github',
+    gif: 'static/images/coffegif.gif',
   },
   {
     name: 'Sneaker Scanner',
     onlyOneButton: false,
     role: 'This tool was created after searching Google for "StockX Scanner" and finding no results. My hope is this tool can make inventory management easier for fellow sneaker resellers',
-    imageUrl:
-      '/static/images/sneakerscanlandingpage.png',
-      href: 'https://sneaker-upc-api.vercel.app/',
-      github: 'https://github.com/GarrettGarrett/sneaker-upc-api',
-      button_title:"Github",
-      gif: 'static/images/sneakerscangif.gif'
+    imageUrl: '/static/images/sneakerscanlandingpage.png',
+    href: 'https://sneaker-upc-api.vercel.app/',
+    github: 'https://github.com/GarrettGarrett/sneaker-upc-api',
+    button_title: 'Github',
+    gif: 'static/images/sneakerscangif.gif',
   },
   // {
   //   name: 'Movie Cast Tweets',
@@ -92,23 +85,21 @@ const projects = [
     name: 'Portfolio Site v2',
     onlyOneButton: false,
     role: 'Updated Portfolio Site',
-    imageUrl:
-      '/static/images/portfoliov2.png',
-      href: 'https://www.garrettfelix.com/',
-      github: 'https://github.com/GarrettGarrett/Portfolio-V2',
-      button_title:"Github",
-      gif: 'static/images/portfoliogif.gif'
+    imageUrl: '/static/images/portfoliov2.png',
+    href: 'https://www.garrettfelix.com/',
+    github: 'https://github.com/GarrettGarrett/Portfolio-V2',
+    button_title: 'Github',
+    gif: 'static/images/portfoliogif.gif',
   },
   {
     name: 'Convert Scout.csv to Shopify.csv',
     onlyOneButton: false,
     role: `Online conversion tool created to solve a problem posted on Scout's Feature Suggestion Board.`,
-    imageUrl:
-      '/static/images/scout2shopify.png',
-      href: 'https://scout2shopify.vercel.app/',
-      github: 'https://github.com/GarrettGarrett/scout2shopify',
-      button_title:"Github",
-      gif: 'static/images/convertergif.gif'
+    imageUrl: '/static/images/scout2shopify.png',
+    href: 'https://scout2shopify.vercel.app/',
+    github: 'https://github.com/GarrettGarrett/scout2shopify',
+    button_title: 'Github',
+    gif: 'static/images/convertergif.gif',
   },
   // {
   //   name: 'Headless Shopify Storefront',
@@ -142,7 +133,7 @@ const projects = [
   //   github:'https://github.com/GarrettGarrett/Wheres-Waldo',
   //   button_title:"Github",
   //   gif: 'static/images/waldogif.gif'
-    
+
   // },
   // {
   //   name: "Team Scheduler",
@@ -191,22 +182,35 @@ const projects = [
   // More projects...
 ]
 
-
-
 function ProjectsFull() {
   const [open, setOpen] = useState(false)
   const [project, setProject] = useState(false)
   const [hovering, setHovering] = useState(-1)
 
   return (
+    <>
+      <Script
+        id="script1"
+        src="https://chatbot-one-iota.vercel.app/embed.min.js"
+        strategy="beforeInteractive"
+      />
 
-  <div className='min-h-screen'>
-        <ShowModal open={open} setOpen={setOpen} project={project}/>
+      <Script id="script2" strategy="beforeInteractive">
+        {`
+          window.chatConfig = {
+            id: "9dcf85ad-2218-407c-a8a2-586d755e4059",
+          };
+        `}
+      </Script>
 
-    <h1 className="mb-6 pt-3 font-bold text-3xl md:text-5xl tracking-tight mb-1 text-white dark:text-white">Projects</h1>
+      <div className="min-h-screen">
+        <ShowModal open={open} setOpen={setOpen} project={project} />
 
-    <div className="grid grid-cols-1 gap-4 sm:grid-cols-2 md:grid-cols-3">
-          
+        <h1 className="mb-6 mb-1 pt-3 text-3xl font-bold tracking-tight text-white dark:text-white md:text-5xl">
+          Projects
+        </h1>
+
+        <div className="grid grid-cols-1 gap-4 sm:grid-cols-2 md:grid-cols-3">
           {projects.map((project, index) => (
             <div
               onMouseEnter={() => {
@@ -215,32 +219,43 @@ function ProjectsFull() {
               onMouseLeave={() => setHovering(-1)}
               onClick={(e) => {
                 setProject(project)
-                setOpen(true)               
-            }}
+                setOpen(true)
+              }}
               key={project.name}
-              className="relative rounded-lg border border-gray-600  px-6 py-5 shadow-sm items-center space-x-3 hover:border-white focus-within:ring-3 focus-within:ring-offset-3 focus-within:ring-white"
+              className="focus-within:ring-3 focus-within:ring-offset-3 relative items-center  space-x-3 rounded-lg border border-gray-600 px-6 py-5 shadow-sm focus-within:ring-white hover:border-white"
             >
               <div className="flex-shrink-0">
-              {
-                hovering == index ? 
-                <img className="w-full rounded-lg " src={project.gif} alt="" />
-                :
-                <img className="w-full rounded-lg" src={project.imageUrl} alt="" />
-              }
+                {hovering == index ? (
+                  <img
+                    className="w-full rounded-lg "
+                    src={project.gif}
+                    alt=""
+                  />
+                ) : (
+                  <img
+                    className="w-full rounded-lg"
+                    src={project.imageUrl}
+                    alt=""
+                  />
+                )}
               </div>
-              <div className="pt-4 flex-1 -mb-4 sm:-mb-0 min-w-0 h-32 overflow-hidden">
+              <div className="-mb-4 h-32 min-w-0 flex-1 overflow-hidden pt-4 sm:-mb-0">
                 <a href="#" className="focus:outline-none">
                   <span className="absolute inset-0" aria-hidden="true" />
-                  <p className=" py-2 text-lg font-medium text-white ">{project.name}</p>
-                  <p className="text-sm text-gray-400">{returnMaxChar(project.role, 60)}</p>
+                  <p className=" py-2 text-lg font-medium text-white ">
+                    {project.name}
+                  </p>
+                  <p className="text-sm text-gray-400">
+                    {returnMaxChar(project.role, 60)}
+                  </p>
                 </a>
               </div>
             </div>
           ))}
         </div>
-
-  </div>
+      </div>
+    </>
   )
 }
 
-export default ProjectsFull;
+export default ProjectsFull
