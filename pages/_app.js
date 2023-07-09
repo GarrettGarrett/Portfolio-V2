@@ -31,6 +31,7 @@ function MyApp({ Component, pageProps }) {
         `}
       </Script>
 
+
       <ThemeProvider attribute="class">
         <Layout>
           <Component {...pageProps} />
