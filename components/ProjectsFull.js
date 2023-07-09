@@ -1,7 +1,6 @@
 import React from 'react'
 import { useState } from 'react'
 import ShowModal from '../components/ShowModal'
-import Script from 'next/script'
 function returnMaxChar(string, maxChar) {
   if (string?.length < maxChar) {
     return string
@@ -189,21 +188,8 @@ function ProjectsFull() {
 
   return (
     <>
-      <Script
-        id="script1"
-        src="https://chatbot-one-iota.vercel.app/embed.min.js"
-        strategy="beforeInteractive"
-      />
-
-      <Script id="script2" strategy="beforeInteractive">
-        {`
-          window.chatConfig = {
-            id: "9dcf85ad-2218-407c-a8a2-586d755e4059",
-          };
-        `}
-      </Script>
-
       <div className="min-h-screen">
+       
         <ShowModal open={open} setOpen={setOpen} project={project} />
 
         <h1 className="mb-6 mb-1 pt-3 text-3xl font-bold tracking-tight text-white dark:text-white md:text-5xl">
